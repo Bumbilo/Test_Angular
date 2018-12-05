@@ -11,7 +11,6 @@ export class RecipesListComponent implements OnInit {
   recipes: Recipe[];
 
   constructor(private recipeService: RecipeService) { 
-  let a = 'dsf';
   }
 
   ngOnInit() {

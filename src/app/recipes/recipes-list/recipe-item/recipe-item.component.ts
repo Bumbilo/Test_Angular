@@ -13,7 +13,6 @@ export class RecipeItemComponent implements OnInit {
   constructor(private recipeService: RecipeService) { }
 
   ngOnInit() {
-
   }
 
   onSelected() {
@@ -21,7 +20,6 @@ export class RecipeItemComponent implements OnInit {
   }
 
   onRecipeSelected() {
-    
   }
 
 }

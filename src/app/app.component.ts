@@ -9,12 +9,9 @@ export class AppComponent implements OnInit {
   loadedFeature = 'recipe';
 
   onNavigate(feature: string): void {
-    this.loadedFeature = feature; 
-    console.log(feature);
+    this.loadedFeature = feature;
   }
 
-  ngOnInit() {
-    
-  }
+  ngOnInit() {}
 
 }
